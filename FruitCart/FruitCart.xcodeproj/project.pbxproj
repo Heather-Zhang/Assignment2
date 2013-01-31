@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		134B157A16BAC43D00F7948B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 134B157916BAC43D00F7948B /* SenTestingKit.framework */; };
+		134B157B16BAC43D00F7948B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 555E431316B84E1D00696EF1 /* UIKit.framework */; };
+		134B157C16BAC43D00F7948B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 555E431516B84E1D00696EF1 /* Foundation.framework */; };
+		134B158416BAC43D00F7948B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 134B158216BAC43D00F7948B /* InfoPlist.strings */; };
+		134B158716BAC43D00F7948B /* VegetableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 134B158616BAC43D00F7948B /* VegetableTests.m */; };
+		13C83B3C16BABCF200D6597C /* Vegetable.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C83B3B16BABCF200D6597C /* Vegetable.m */; };
 		555E431416B84E1D00696EF1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 555E431316B84E1D00696EF1 /* UIKit.framework */; };
 		555E431616B84E1D00696EF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 555E431516B84E1D00696EF1 /* Foundation.framework */; };
 		555E431816B84E1D00696EF1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 555E431716B84E1D00696EF1 /* CoreGraphics.framework */; };
@@ -24,6 +30,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		134B157816BAC43D00F7948B /* VegetableTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VegetableTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		134B157916BAC43D00F7948B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		134B158116BAC43D00F7948B /* VegetableTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VegetableTests-Info.plist"; sourceTree = "<group>"; };
+		134B158316BAC43D00F7948B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		134B158516BAC43D00F7948B /* VegetableTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VegetableTests.h; sourceTree = "<group>"; };
+		134B158616BAC43D00F7948B /* VegetableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VegetableTests.m; sourceTree = "<group>"; };
+		13C83B3A16BABCF200D6597C /* Vegetable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vegetable.h; sourceTree = "<group>"; };
+		13C83B3B16BABCF200D6597C /* Vegetable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vegetable.m; sourceTree = "<group>"; };
 		555E431016B84E1D00696EF1 /* FruitCart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FruitCart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		555E431316B84E1D00696EF1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		555E431516B84E1D00696EF1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -49,6 +63,16 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		134B157416BAC43D00F7948B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				134B157A16BAC43D00F7948B /* SenTestingKit.framework in Frameworks */,
+				134B157B16BAC43D00F7948B /* UIKit.framework in Frameworks */,
+				134B157C16BAC43D00F7948B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		555E430D16B84E1D00696EF1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -62,10 +86,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		134B157F16BAC43D00F7948B /* VegetableTests */ = {
+			isa = PBXGroup;
+			children = (
+				134B158516BAC43D00F7948B /* VegetableTests.h */,
+				134B158616BAC43D00F7948B /* VegetableTests.m */,
+				134B158016BAC43D00F7948B /* Supporting Files */,
+			);
+			path = VegetableTests;
+			sourceTree = "<group>";
+		};
+		134B158016BAC43D00F7948B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				134B158116BAC43D00F7948B /* VegetableTests-Info.plist */,
+				134B158216BAC43D00F7948B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13C83B3E16BABCF800D6597C /* Vegetables */ = {
+			isa = PBXGroup;
+			children = (
+				13C83B3A16BABCF200D6597C /* Vegetable.h */,
+				13C83B3B16BABCF200D6597C /* Vegetable.m */,
+			);
+			name = Vegetables;
+			sourceTree = "<group>";
+		};
 		555E430716B84E1D00696EF1 = {
 			isa = PBXGroup;
 			children = (
 				555E431916B84E1D00696EF1 /* FruitCart */,
+				134B157F16BAC43D00F7948B /* VegetableTests */,
 				555E431216B84E1D00696EF1 /* Frameworks */,
 				555E431116B84E1D00696EF1 /* Products */,
 			);
@@ -75,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				555E431016B84E1D00696EF1 /* FruitCart.app */,
+				134B157816BAC43D00F7948B /* VegetableTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -85,6 +139,7 @@
 				555E431316B84E1D00696EF1 /* UIKit.framework */,
 				555E431516B84E1D00696EF1 /* Foundation.framework */,
 				555E431716B84E1D00696EF1 /* CoreGraphics.framework */,
+				134B157916BAC43D00F7948B /* SenTestingKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -92,6 +147,7 @@
 		555E431916B84E1D00696EF1 /* FruitCart */ = {
 			isa = PBXGroup;
 			children = (
+				13C83B3E16BABCF800D6597C /* Vegetables */,
 				555E433F16B8530800696EF1 /* Fruits */,
 				555E432216B84E1E00696EF1 /* AppDelegate.h */,
 				555E432316B84E1E00696EF1 /* AppDelegate.m */,
@@ -133,6 +189,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		134B157716BAC43D00F7948B /* VegetableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 134B158D16BAC43D00F7948B /* Build configuration list for PBXNativeTarget "VegetableTests" */;
+			buildPhases = (
+				134B157316BAC43D00F7948B /* Sources */,
+				134B157416BAC43D00F7948B /* Frameworks */,
+				134B157516BAC43D00F7948B /* Resources */,
+				134B157616BAC43D00F7948B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VegetableTests;
+			productName = VegetableTests;
+			productReference = 134B157816BAC43D00F7948B /* VegetableTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
 		555E430F16B84E1D00696EF1 /* FruitCart */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 555E433316B84E1E00696EF1 /* Build configuration list for PBXNativeTarget "FruitCart" */;
@@ -172,11 +246,20 @@
 			projectRoot = "";
 			targets = (
 				555E430F16B84E1D00696EF1 /* FruitCart */,
+				134B157716BAC43D00F7948B /* VegetableTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		134B157516BAC43D00F7948B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				134B158416BAC43D00F7948B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		555E430E16B84E1D00696EF1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -191,7 +274,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		134B157616BAC43D00F7948B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		134B157316BAC43D00F7948B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				134B158716BAC43D00F7948B /* VegetableTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		555E430C16B84E1D00696EF1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -202,12 +309,21 @@
 				555E433C16B852FF00696EF1 /* Fruit.m in Sources */,
 				555E433D16B852FF00696EF1 /* Apple.m in Sources */,
 				555E433E16B852FF00696EF1 /* GoldDelicious.m in Sources */,
+				13C83B3C16BABCF200D6597C /* Vegetable.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		134B158216BAC43D00F7948B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				134B158316BAC43D00F7948B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		555E431C16B84E1E00696EF1 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -227,6 +343,42 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		134B158A16BAC43D00F7948B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Vegetable.app/Vegetable";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Vegetable/Vegetable-Prefix.pch";
+				INFOPLIST_FILE = "VegetableTests/VegetableTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		134B158B16BAC43D00F7948B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Vegetable.app/Vegetable";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Vegetable/Vegetable-Prefix.pch";
+				INFOPLIST_FILE = "VegetableTests/VegetableTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
 		555E433116B84E1E00696EF1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -289,7 +441,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FruitCart/FruitCart-Prefix.pch";
 				INFOPLIST_FILE = "FruitCart/FruitCart-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -300,7 +454,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FruitCart/FruitCart-Prefix.pch";
 				INFOPLIST_FILE = "FruitCart/FruitCart-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -308,6 +464,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		134B158D16BAC43D00F7948B /* Build configuration list for PBXNativeTarget "VegetableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				134B158A16BAC43D00F7948B /* Debug */,
+				134B158B16BAC43D00F7948B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		555E430B16B84E1D00696EF1 /* Build configuration list for PBXProject "FruitCart" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -324,6 +489,7 @@
 				555E433516B84E1E00696EF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

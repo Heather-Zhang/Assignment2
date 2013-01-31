@@ -10,4 +10,12 @@
 
 @implementation Vegetable
 
+-(id)initWithName:(NSString *)inName andColor:(NSString *)inColor andShape:(NSString *)inShape
+{
+    _name = inName;
+    _color = inColor;
+    _shape = inShape;
+    return self;
+}
+
 @end

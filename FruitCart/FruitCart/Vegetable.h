@@ -10,4 +10,12 @@
 
 @interface Vegetable : NSObject
 
+@property (nonatomic, strong) NSString * name;
+@property (nonatomic, strong) NSString * color;
+@property (nonatomic, strong) NSString * shape;
+
+-initWithName: (NSString *) inName andColor: (NSString *) inColor andShape: (NSString *) inShape;
+
+
+
 @end
