@@ -21,6 +21,17 @@
 	// Do any additional setup after loading the view, typically from a nib.
     _cart = [NSMutableArray arrayWithCapacity:0];
     
+    //add potato, onion and pumplin
+    Vegetable * potato = [[Vegetable alloc] initWithName:@"Potato" andColor:@"Brown" andShape:@"cylinderical"];
+    Vegetable * onion = [[Vegetable alloc] initWithName:@"Onion" andColor:@"White" andShape:@"round"];
+    Vegetable * pumpkin = [[Vegetable alloc] initWithName:@"Pumpkin" andColor:@"Orange" andShape:@"round"];
+    
+    [_cart addObject:potato];
+    [_cart addObject:onion];
+    [_cart addObject:pumpkin];
+    
+    
+    //add 50 eggplants
     for(int i = 0; i < 50; i++){
         NSString * vegetableName = [NSString stringWithFormat:@"Eggplant %d", i];
         

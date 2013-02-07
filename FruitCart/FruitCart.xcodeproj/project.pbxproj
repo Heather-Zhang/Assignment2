@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		133920FD16C3E90B00F8759A /* screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 133920FC16C3E90B00F8759A /* screenshot.png */; };
 		134B157A16BAC43D00F7948B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 134B157916BAC43D00F7948B /* SenTestingKit.framework */; };
 		134B157B16BAC43D00F7948B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 555E431316B84E1D00696EF1 /* UIKit.framework */; };
 		134B157C16BAC43D00F7948B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 555E431516B84E1D00696EF1 /* Foundation.framework */; };
@@ -30,6 +31,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		133920FC16C3E90B00F8759A /* screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = screenshot.png; path = ../../../../../Desktop/screenshot.png; sourceTree = "<group>"; };
 		134B157816BAC43D00F7948B /* VegetableTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VegetableTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		134B157916BAC43D00F7948B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		134B158116BAC43D00F7948B /* VegetableTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VegetableTests-Info.plist"; sourceTree = "<group>"; };
@@ -147,6 +149,7 @@
 		555E431916B84E1D00696EF1 /* FruitCart */ = {
 			isa = PBXGroup;
 			children = (
+				133920FC16C3E90B00F8759A /* screenshot.png */,
 				13C83B3E16BABCF800D6597C /* Vegetables */,
 				555E433F16B8530800696EF1 /* Fruits */,
 				555E432216B84E1E00696EF1 /* AppDelegate.h */,
@@ -269,6 +272,7 @@
 				555E432816B84E1E00696EF1 /* Default@2x.png in Resources */,
 				555E432A16B84E1E00696EF1 /* Default-568h@2x.png in Resources */,
 				555E433016B84E1E00696EF1 /* ViewController.xib in Resources */,
+				133920FD16C3E90B00F8759A /* screenshot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
